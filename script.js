@@ -98,3 +98,11 @@ document.getElementById ("eq").onclick = function () {
       inp.value = +firstNum * +inp.value;
    }  
 }
+
+document.getElementById ("plusmn").onclick = function () {
+   inp.value = +inp.value * -1;
+}
+
+document.getElementById ("cancel").onclick = function () {
+   inp.value = "";
+}

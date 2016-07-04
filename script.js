@@ -94,9 +94,12 @@ document.getElementById ("eq").onclick = function () {
       inp.value = +firstNum - +inp.value;
    } else if (operation == "/") {
       inp.value = +firstNum / +inp.value;
+      if (inp.value == "Infinity") {
+         alert ("Ошибка! Деление на 0");
+      }
    } else if (operation == "*") {
       inp.value = +firstNum * +inp.value;
-   }  
+   }
 }
 
 document.getElementById ("plusmn").onclick = function () {

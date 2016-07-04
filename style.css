@@ -86,3 +86,6 @@ button {
    border: 0.1px solid silver;
    text-align: right;
 }
+.output {
+   height: 22px;
+}
